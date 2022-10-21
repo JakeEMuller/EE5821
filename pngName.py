@@ -4,7 +4,7 @@ from pytesseract import pytesseract
 
 
 
-fileLocation = "/mnt/d/EE5821/FinalProjectData/Playground/Test_(2).png"
+fileLocation = "/mnt/d/EE5821/FinalProjectData/Playground/Test_(1).png"
 
 tesseractInstall = "/usr/share/tesseract-ocr/4.00/tessdata"
 
@@ -26,7 +26,7 @@ imgText = img.crop((leftside, top, rightside, bottom))
 
 # crop for training data
 leftside = 5
-top = 130
+top = 380
 rightside = width
 bottom = (height-280)
 
